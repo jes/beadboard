@@ -1,0 +1,19 @@
+.beadboard {
+}
+
+.beadboard .bead {
+    vertical-align: top; /* https://stackoverflow.com/a/8055736 */
+    display: inline-block;
+    background: black;
+    margin: 1px 1px 1px 1px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.beadboard .bead-inner {
+    vertical-align: top;
+    height: 100%;
+    background: white;
+    position: absolute;
+}
